@@ -36,3 +36,82 @@
 .brand-list.logo-list .logo-quanta{font-family:Arial,sans-serif;font-size:clamp(18px,1.6vw,26px);font-weight:900;font-style:italic;letter-spacing:-1px;color:#111;transform:skewX(-8deg)}
 .brand-list.logo-list .logo-luminous{font-family:Arial,sans-serif;font-size:clamp(17px,1.55vw,25px);font-weight:900;letter-spacing:-.7px;color:#15518e}
 @media(max-width:640px){.brand-list.logo-list{gap:3px;padding:8px 0}.brand-list.logo-list .brand-logo{min-height:44px;padding:4px 1px}.brand-list.logo-list .logo-apc{font-size:19px}.brand-list.logo-list .logo-exide{font-size:16px}.brand-list.logo-list .logo-vertiv{font-size:10px}.brand-list.logo-list .logo-vertiv b{margin-right:2px}.brand-list.logo-list .logo-quanta{font-size:11px}.brand-list.logo-list .logo-luminous{font-size:10px}}
+
+/* 2026 corporate refresh: clearer hierarchy, application-led discovery and stronger enquiry paths */
+:root{--aps-blue:#07579b;--aps-blue2:#0a78bd;--aps-navy:#061a31;--aps-gold:#f2b632;--aps-cloud:#f3f7fb}
+.site-header{background:#fff;color:#0a2037;box-shadow:0 4px 24px #071d3510}
+.topline{background:#061a31;color:#a8bdd0;border:0}
+.nav-wrap{height:82px}
+.brand-wordmark{font:900 23px/1 'Manrope',sans-serif;letter-spacing:-1.2px;color:#071d35}
+.brand-wordmark span{display:block;margin-top:6px;font-size:8px;letter-spacing:.18em;color:#6b7f92}
+.nav{color:#30475d}
+.nav a:hover{color:var(--aps-blue)}
+.nav-cta{background:var(--aps-blue);color:white;padding:14px 20px}
+.mobile-toggle span{background:#0a2037}
+.hero{min-height:630px;background:#061a31}
+.hero-image{background:linear-gradient(90deg,rgba(3,17,36,.96) 0%,rgba(3,17,36,.86) 42%,rgba(3,17,36,.28) 100%),url('https://images.unsplash.com/photo-1581092921461-eab62e97a780?auto=format&fit=crop&w=2200&q=88') center/cover}
+.hero-inner{min-height:590px}
+.hero h1{font-size:clamp(58px,6.4vw,92px)}
+.btn-primary{background:var(--aps-gold);color:#071b31}
+.hero .btn-primary:hover{background:#ffd36c}
+.hero-proof .proof-mark{border-color:#fff;color:#fff}
+.brand-strip{grid-template-columns:1fr 3fr;gap:24px;padding-top:25px;padding-bottom:25px}
+.brand-strip p{grid-column:2;text-align:center;font-size:10px}
+.brand-list.logo-list{gap:clamp(10px,2vw,30px);padding:0}
+.brand-list.logo-list .brand-logo{background:transparent;min-height:52px}
+.section{max-width:1440px}
+.section-head{margin-bottom:42px}
+.section h2,.industry-heading h2,.trust-intro h2{font-size:clamp(46px,5vw,70px)}
+.solution-grid{gap:18px}
+.solution-card{min-height:310px;border-radius:3px}
+.solution-dark{background:linear-gradient(145deg,#071b33,#0b3c66)}
+.solution-yellow{background:linear-gradient(145deg,#f6c64d,#f3b62d)}
+.solution-blue{background:linear-gradient(145deg,#0b79b7,#075083)}
+.product-toolbar{border-bottom:0;background:#edf3f8;padding:14px 16px;margin-bottom:22px}
+.filter-tabs button{border-radius:2px}
+.filter-tabs button.active{background:var(--aps-blue);border-color:var(--aps-blue)}
+.product-grid{gap:18px}
+.product-card{border-radius:3px;box-shadow:0 5px 20px #102e4a0a}
+.product-card:hover{border-color:#78b7df;box-shadow:0 18px 35px #0b31501a}
+.product-visual{height:220px}
+.product-info{padding:20px}
+.product-info h3{font-size:25px}
+.product-bottom strong{color:var(--aps-blue)}
+.industry-section{padding:100px 5.5%;background:#edf3f8}
+.industry-heading{max-width:1320px;margin:0 auto 42px;display:flex;justify-content:space-between;align-items:end;gap:50px}
+.industry-heading h2{font:700 clamp(46px,5vw,70px)/.96 'Barlow Condensed';letter-spacing:-.025em;color:#0a1a2e;margin:19px 0}
+.industry-heading h2 em{font-style:normal;color:var(--aps-blue)}
+.industry-heading>p{max-width:420px;margin:0 0 8px;color:#627489;font-size:13px;line-height:1.9}
+.industry-grid{max-width:1320px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.industry-card{position:relative;min-height:260px;padding:27px;background:#fff;border:1px solid #dce6ee;display:flex;flex-direction:column;align-items:flex-start;transition:transform .22s,box-shadow .22s,border-color .22s}
+.industry-card:hover{transform:translateY(-4px);border-color:#9cc5df;box-shadow:0 16px 35px #0a2a4612}
+.industry-icon{font-size:28px;color:var(--aps-blue);margin-bottom:22px}
+.industry-index{font:800 8px 'Manrope';letter-spacing:.16em;color:#8a9cad}
+.industry-card h3{font:700 27px 'Barlow Condensed';color:#0a2037;margin:9px 0}
+.industry-card p{font-size:11px;line-height:1.75;color:#718195;margin:0 0 18px;max-width:300px}
+.industry-card>b{margin-top:auto;font:800 9px 'Manrope';letter-spacing:.08em;color:var(--aps-blue)}
+.industry-card-cta{background:#082746;color:#fff;border-color:#082746}
+.industry-card-cta .industry-index{color:#8fb8d5}
+.industry-card-cta h3{color:#fff;font-size:31px}
+.industry-card-cta h3 em{font-style:normal;color:#f5c54a}
+.industry-card-cta p{color:#b2c5d6}
+.industry-card-cta>b{color:#f5c54a}
+.trust-section{padding:95px 8%;background:#061a31;color:#fff;display:grid;grid-template-columns:.9fr 1.1fr;gap:9%;align-items:start}
+.trust-intro h2{font:700 clamp(44px,4.5vw,64px)/.98 'Barlow Condensed';margin:20px 0;color:#fff}
+.trust-intro h2 em{font-style:normal;color:#f4c24a}
+.trust-intro>p:last-child{max-width:400px;color:#aebfd0;font-size:13px;line-height:1.9}
+.trust-points article{display:grid;grid-template-columns:42px 1fr;gap:18px;padding:19px 0;border-bottom:1px solid #ffffff20}
+.trust-points article:first-child{border-top:1px solid #ffffff20}
+.trust-points article>span{font:800 10px 'Manrope';color:#f2c24b;padding-top:5px}
+.trust-points h3{font:700 24px 'Barlow Condensed';margin:0 0 4px}
+.trust-points p{font-size:11px;line-height:1.7;color:#9fb2c5;margin:0}
+.brand-feature{min-height:440px}
+.services-section{background:#fff}
+.service-list article{padding-top:28px;padding-bottom:28px}
+.about-section{background:#edf3f8}
+.contact-section{background:linear-gradient(135deg,#061a31,#092d50)}
+.quote-form{background:#0c2948;border-color:#294a68}
+.footer{background:#031020}
+@media(max-width:900px){.brand-strip{grid-template-columns:1fr;gap:12px}.brand-strip p{grid-column:1;text-align:center}.industry-heading{display:block}.industry-heading>p{margin-top:18px}.industry-grid{grid-template-columns:repeat(2,1fr)}.trust-section{grid-template-columns:1fr;gap:35px}}
+@media(max-width:680px){.nav-wrap{height:72px}.nav{background:#fff;top:102px;color:#243c54;box-shadow:0 12px 20px #071d3520}.nav-cta{padding:10px 12px}.hero{min-height:680px}.hero-inner{min-height:640px}.industry-section{padding:70px 6%}.industry-grid{grid-template-columns:1fr 1fr;gap:9px}.industry-card{padding:17px;min-height:250px}.industry-card h3{font-size:22px}.industry-card p{font-size:10px}.industry-card-cta h3{font-size:24px}.trust-section{padding:70px 7%}.trust-points h3{font-size:22px}.brand-strip{padding:20px 5%}.brand-list.logo-list{gap:4px}.brand-list.logo-list .brand-logo{min-height:40px}.product-grid{gap:9px}}
+@media(max-width:420px){.industry-grid{grid-template-columns:1fr}.industry-card{min-height:215px}.industry-card p{max-width:100%}}
