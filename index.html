@@ -17,6 +17,7 @@
     <button class="mobile-toggle" @click="mobileOpen=!mobileOpen" aria-label="Toggle menu"><span></span><span></span></button>
     <nav :class="mobileOpen ? 'nav open' : 'nav'">
       <a href="#solutions" @click="mobileOpen=false">Solutions</a>
+      <a href="#industries" @click="mobileOpen=false">Applications</a>
       <a href="#products" @click="mobileOpen=false">Products</a>
       <a href="#brands" @click="mobileOpen=false">Brands</a>
       <a href="#services" @click="mobileOpen=false">Services</a>
@@ -36,7 +37,7 @@
       <div class="hero-actions"><a class="btn-primary" href="#products">Explore products <span>↗</span></a><a class="btn-quiet" href="#contact">Talk to our team <span>→</span></a></div>
       <div class="hero-proof"><span class="proof-mark">APS</span><span>Sales · Service · Repairs</span><b></b><span>Mumbai & surrounding areas</span></div>
     </div>
-    <div class="hero-side">
+    <div class="hero-side" aria-label="Power continuity visual">
       <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
       <div class="power-core"><span class="bolt">ϟ</span><small>POWER<br>CONTINUITY</small></div>
       <div class="floating-tag tag-top"><span class="live-dot"></span> Backup, without the guesswork</div>
@@ -67,6 +68,32 @@
     <a href="#products" class="solution-card solution-dark"><div class="solution-number">01</div><div class="solution-icon">ϟ</div><h3>UPS systems</h3><p>Home, office, rack-mount and online UPS solutions for dependable power conditioning and backup.</p><span>Explore UPS <b>↗</b></span></a>
     <a href="#products" class="solution-card solution-yellow"><div class="solution-number">02</div><div class="solution-icon">▣</div><h3>Battery solutions</h3><p>SMF, VRLA, tubular and high-capacity battery options matched to runtime and load requirements.</p><span>Explore batteries <b>↗</b></span></a>
     <a href="#services" class="solution-card solution-blue"><div class="solution-number">03</div><div class="solution-icon">⌁</div><h3>Service & repairs</h3><p>Preventive maintenance, troubleshooting, battery health checks and repair support.</p><span>View services <b>↗</b></span></a>
+  </div>
+</section>
+
+
+<section id="industries" class="industry-section">
+  <div class="industry-heading">
+    <div><p class="eyebrow dark"><i></i> SOLUTIONS BY APPLICATION</p><h2>Power protection for<br><em>every environment.</em></h2></div>
+    <p>Different sites have different loads, runtimes and operating conditions. Start with the environment and we’ll help narrow down the right UPS and battery configuration.</p>
+  </div>
+  <div class="industry-grid">
+    <a href="#contact" class="industry-card"><span class="industry-icon">⌂</span><span class="industry-index">01 / HOME & SOHO</span><h3>Homes & small offices</h3><p>Backup for computers, routers, essential appliances and everyday work.</p><b>Discuss a home solution ↗</b></a>
+    <a href="#contact" class="industry-card"><span class="industry-icon">▤</span><span class="industry-index">02 / COMMERCIAL</span><h3>Commercial spaces</h3><p>UPS and battery support for offices, retail, clinics and business operations.</p><b>Discuss a business solution ↗</b></a>
+    <a href="#contact" class="industry-card"><span class="industry-icon">▥</span><span class="industry-index">03 / IT & DATA</span><h3>Server rooms & IT</h3><p>Power continuity planning for network equipment, servers and critical IT loads.</p><b>Discuss an IT solution ↗</b></a>
+    <a href="#contact" class="industry-card"><span class="industry-icon">⚙</span><span class="industry-index">04 / INDUSTRIAL</span><h3>Industrial & infrastructure</h3><p>Battery banks, online UPS and application-led backup for demanding sites.</p><b>Discuss an industrial solution ↗</b></a>
+    <a href="#contact" class="industry-card"><span class="industry-icon">✚</span><span class="industry-index">05 / HEALTHCARE</span><h3>Healthcare & diagnostics</h3><p>Backup requirements for essential equipment and supporting infrastructure.</p><b>Discuss a healthcare solution ↗</b></a>
+    <a href="#contact" class="industry-card industry-card-cta"><span class="industry-index">NOT SURE WHAT YOU NEED?</span><h3>Tell us your load.<br><em>We’ll help size the system.</em></h3><p>Share your equipment, required runtime and location to get started.</p><b>Get a recommendation ↗</b></a>
+  </div>
+</section>
+
+<section class="trust-section">
+  <div class="trust-intro"><p class="eyebrow"><i></i> THE APS APPROACH</p><h2>More than a product.<br><em>A power partner.</em></h2><p>From selection to after-sales support, keep the whole power-backup journey connected through one team.</p></div>
+  <div class="trust-points">
+    <article><span>01</span><div><h3>Application-first selection</h3><p>We start with load, runtime, site conditions and the equipment you need to protect.</p></div></article>
+    <article><span>02</span><div><h3>Established brand ecosystem</h3><p>Explore UPS and battery ranges across the brands represented in our product ecosystem.</p></div></article>
+    <article><span>03</span><div><h3>Sales and service together</h3><p>Product supply, installation coordination, maintenance and repair support in one place.</p></div></article>
+    <article><span>04</span><div><h3>Clear enquiry process</h3><p>Share your requirement and receive a product recommendation or quotation from our team.</p></div></article>
   </div>
 </section>
 
